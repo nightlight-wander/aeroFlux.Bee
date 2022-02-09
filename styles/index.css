@@ -117,3 +117,131 @@ a{
     align-items: center;
     padding-right: 2rem;
 }
+
+/* slider-starts */
+
+img{
+    width: 1519px;
+    height: 800px;
+    object-fit: cover;
+    object-position: center;
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.carousel{
+    width: 1519px;
+    height: 800px;
+    position: relative;
+}
+
+
+.carousel ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+} 
+
+.slide[data-active]{
+    opacity: 1;
+}
+
+.carousel button span{
+    position: absolute;
+    z-index: 2;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255,255,255,.5);
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+.carousel button span:hover,
+.carousel button span:focus{
+    color: white;
+    background-color: rgba(0,0,0,.2);
+}
+
+button .next-icon{
+    right: 1rem;
+    
+}
+
+button .before-icon{
+    left: 1rem;
+}
+
+.main-product-content{
+    position: absolute;
+    top:14rem;
+}
+
+.main-product-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 40%;
+    width: 30%;
+}
+
+.product-content-box{
+    display: block;
+    text-align: center;
+    color: var(--white);
+}
+
+.cta-btns-box{
+    display: inline-block;
+    text-align: end;
+}
+
+.sp-h3{
+    font-size:2rem;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+
+.sp-h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom:2rem ;
+}
+
+.sp-text{
+    font-size:1.6rem ;
+    font-weight: 580;
+    margin-bottom:1rem;
+}
+
+.link-cta{
+    display: inline-block;
+    /* text-align: center; */
+    flex-basis: 9rem;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+}
+
+.link-cta span{
+    vertical-align: middle;
+    padding: 0.5rem 0.8rem;
+}
+
+.link-cta:hover{
+    background-color: var(--pink8);
+}
+
+/* slider-ends */
+
