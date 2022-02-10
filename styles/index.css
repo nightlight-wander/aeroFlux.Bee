@@ -16,6 +16,9 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.header a,.carousel a{
     color: var(--white);
 }
 
@@ -120,7 +123,7 @@ a{
 
 /* slider-starts */
 
-img{
+.slide img{
     width: 1519px;
     height: 800px;
     object-fit: cover;
@@ -197,8 +200,10 @@ button .before-icon{
 }
 
 .product-content-box{
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
     color: var(--white);
 }
 
@@ -227,9 +232,7 @@ button .before-icon{
 }
 
 .link-cta{
-    display: inline-block;
-    /* text-align: center; */
-    flex-basis: 9rem;
+    display: inline-flex;
     border: 2px solid var(--white);
     border-radius: 0.5rem;
 }
@@ -237,11 +240,61 @@ button .before-icon{
 .link-cta span{
     vertical-align: middle;
     padding: 0.5rem 0.8rem;
+   
 }
 
 .link-cta:hover{
-    background-color: var(--pink8);
+    background-color: var(--sky-blue);
 }
 
 /* slider-ends */
+
+
+.main-explore-box{
+    margin-top: 5rem;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.explore-content{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.explore-title{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.explore-child-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.explore-child-list .explore-child-item{
+    width: 389px;
+    height: 512px;
+    position: relative;
+    display: block;
+   
+}
+
+.explore-child-item .explore-img{
+    width: 100%;
+    aspect-ratio: auto 340 / 448;
+    transition: all .6s ease;
+   
+}
+
+.explore-child-item .explore-child-content{
+    position: absolute;
+    width: 100%;
+    top: 4rem;
+    color: black;
+}
+
 
