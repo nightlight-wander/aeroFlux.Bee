@@ -7,4 +7,45 @@
 
 body{
     box-sizing: border-box;
+    font-size:1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.flex-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-hCenter{
+    display:flex;
+    justify-content: center;
+}
+
+.flex-vCenter{
+    display:flex;
+    align-items: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-block{
+    display: inline-block;
 }
