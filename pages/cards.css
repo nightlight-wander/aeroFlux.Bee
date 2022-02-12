@@ -1,0 +1,139 @@
+.icon{
+    width: 2rem;
+    height: 2rem;
+    color: var(--gold1);
+}
+
+.product{
+    display: inline-block;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+    margin-right: 2rem;
+}
+
+.product-container{
+    text-align: center;
+    background-color: var(--pink8);
+    color: var(--gold1);
+    box-shadow:  5px 5px 12px #120f1d,
+    -1px -1px 12px #141120;
+}
+
+.product-content{
+    padding: 1.6rem;
+    position: relative;
+}
+.product-content a{
+    position: relative;
+    margin-bottom:0.5rem;
+}
+
+a .prod-img-bottom-extra{
+    padding-bottom: 1rem;
+}
+
+.prod-img{
+    position: relative;
+    margin: 0rem auto;
+}
+
+.prod-img img{
+    position: absolute;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    inset: 0px;
+}
+
+.product-content .product-ratings-container{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight:800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey1);
+    color: var(--black);
+    padding: 0 0 0 0.4rem;
+    margin-left:0.4rem;
+    bottom:9.8rem;
+    border-radius: 0.2rem;
+    z-index: 1;
+    padding-right:0.3rem;
+}
+
+.product-count-seprator{
+    font-weight:bold;
+    padding-left:0.4rem ;
+}
+
+.like-box{
+    display: inline-block;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.6rem;
+    
+}
+
+.like-box:hover{
+    width: 4rem;
+    height: 4rem;
+    background-color:var(--light-red);
+    border-radius: 50%;
+
+}
+
+.like .icon{
+    font-size: 2rem;
+    color: var(--dullgold);
+}
+
+.like .icon:hover{
+    color: var(--dark-red);
+}
+
+a{
+    text-decoration: none;
+    color: var(--gold1);
+}
+
+.product-type{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.product-name{
+    font-size: 1.4rem;
+    padding-right: none;
+}
+
+.product-price{
+    padding: 0 1rem 0 0;
+    text-align: center;
+    display: flex;
+}
+
+.product-discount-price{
+    font-size: 1.4rem;
+    font-weight:bolder;
+}
+
+.product-strike{
+    text-decoration: line-through;
+    font-size: 1.1rem;
+}
+
+.product-discount{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left:0.5rem ;
+
+}
+
+.product-meta-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
