@@ -265,20 +265,20 @@ a{
 }
 
 .footer{
-    padding-top: 4rem;
+    padding: 4rem 0 4rem 0;
     background-color: var(--pink8bg);
-    color: white;
+    color:var(--pink4);
     font-weight: 600;
     font-size: 2rem;
+    padding-right:2rem ;
+    vertical-align: center;
+    border-top: 1px solid var(--blackl1);
 }
 
-/* .footer-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.footer a{
+    padding-left: 3rem;
+}
 
-.footer-content span i:before{
-    width: 8rem;
-    height: 2rem;
+.moon-icon{
+    padding-right: 1rem;
 }
