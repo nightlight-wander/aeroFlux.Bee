@@ -12,7 +12,7 @@
   --white1:#f5f5f6;
   --black: #000000;
   --black1:rgba(0,0,0,.2);
-  --blackl1:rgba(255,255,255,.5);
+  --blackl1:rgba(68,68,68,.5);
   --blackl2:rgba(0,0,0,.1);
   --grey:#CCC;
   --grey1: hsla(0,0%,100%,.8);
@@ -50,6 +50,6 @@
   --pink6:#801357;
   --pink7:#3d1635;
   --pink8:#1c1a27;
-
+  --pink8bg:rgb(19 16 30 / 94%);
   --gold1:#e0cb8f;
 }
