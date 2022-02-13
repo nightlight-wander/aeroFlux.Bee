@@ -25,7 +25,7 @@ main{
 }
 
 .tab-fullWrapper{
-    padding: 5rem 0 3rem 0;
+    padding: 5rem 0 5rem 0;
 }
 
 footer {
@@ -42,7 +42,7 @@ footer {
     box-shadow: var(--box-shadow-primary-out);
 }
 
-.tab-list li {
+.tab-list li{
     list-style: none;
     width: 15rem;
     text-align: center;
@@ -96,12 +96,33 @@ footer {
     font-size: 1.6rem;
 }
 
-.eye-icon{
+.sign-link{
+    text-align: center;
+    padding-bottom:3rem ;
+}
+
+.sign-link a{
+    color: var(--gold1);
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-bottom:1px solid var(--gold1) ;
+   
+}
+
+.eye-icon1{
   position: absolute;
-  top: 72.6%;
+  top: 61.5%;
   right: 5rem;
   color: var(--tomatoOrange);
   cursor: pointer;
+}
+
+.eye-icon2{
+    position: absolute;
+    top: 86.4%;
+    right: 5rem;
+    color: var(--tomatoOrange);
+    cursor: pointer;
 }
 
 .footer{
@@ -119,3 +140,4 @@ footer {
     color:var(--yellowGold);
     padding-left:2rem;
 }
+

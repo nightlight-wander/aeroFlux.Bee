@@ -70,11 +70,16 @@
         <main class="tab-fullWrapper flex-hCenter ">
             <div class="tab-wrapper">
                 <ul class="tab-list flex-center sp2-pd-t">
-                    <li class="sp1-pd-b"><a href="#">Login</a></li>
+                    <li class="sp1-pd-b"><a href="#">Sign Up</a></li>
                 </ul>
                 <div class="tabContent">
                     <form class="login form flex-col sp4-mg-t">
                         <div class="input-wrapper flex-col ">
+                            <label for="email" class="text-label sp4-mg-lr">
+                                UserName<span class="req-feild">*</span>
+                            </label>
+                            <input id="email" type="email" class="text-input sp4-mg-lr">
+
                             <label for="email" class="text-label sp4-mg-lr">
                                 Email<span class="req-feild">*</span>
                             </label>
@@ -86,21 +91,19 @@
                             <input id="password" type="email" class="text-input sp4-mg-lr">
                             <span class="eye-icon1 material-icons material-icons-outlined">
                                 visibility</span>
-            
+
+                            <label for="password" class="text-label sp4-mg-lr">
+                                Confirm Password<span class="req-feild">*</span>
+                            </label>
+                            <input id="password" type="email" class="text-input sp4-mg-lr">
+                            <span class="eye-icon2 material-icons material-icons-outlined">
+                                visibility</span>
                         </div>
-                        <div class="password-wrapper d-flex">
-                            <div class="remeber-box">
-                                <input type="checkbox" name="remember-me">
-                                Remember Me
-                            </div>
-                            <div class="forget-box">
-                                <a href="#" class="link-btn">Forgot Password</a>
-                            </div>
-                        </div>
-                        <div class="btn-slide button sp-t">Sign In</div>
+
+                        <div class="btn-slide button sp-t">Sign Up</div>
                     </form>
                 </div>
-                <div class="sign-link"><a href="signin.html">Create New Account</a></div>
+                <div class="sign-link"><a href="signup.html">Already have an account</a></div>
             </div>
         </main>
         <!-- main section ends -->
