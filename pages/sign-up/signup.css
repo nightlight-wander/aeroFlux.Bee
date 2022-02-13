@@ -109,6 +109,13 @@ footer {
    
 }
 
+.eye-icon{
+    position: absolute;
+    top: 72.5%;
+    right: 5rem;
+    color: var(--tomatoOrange);
+    cursor: pointer;
+}
 .eye-icon1{
   position: absolute;
   top: 61.5%;
