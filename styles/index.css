@@ -5,6 +5,7 @@
     left: 0;
     z-index: 10;
     height: 8rem;
+    background-color: var(--blackl2);
 }
 
 .logo-head{
@@ -22,7 +23,7 @@
 }
 
 .logo-name:hover{
-    color:var(--gold1);
+    color:var(--tomatoOrange);
 }
 
 .header a,.carousel a{
@@ -218,9 +219,8 @@ button .before-icon{
 
 /* slider-ends */
 
-
 .main-explore-box{
-    margin-top: 5rem;
+    padding-top: 5rem;
     font-size: 100%;
     vertical-align: baseline;
 }
@@ -263,7 +263,25 @@ button .before-icon{
     position: absolute;
     width: 100%;
     top: 4rem;
-    color: black;
+    color: var(--black);
+}
+
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+    color:var(--pink8);
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    padding-right:2rem ;
+    border-top: 1px solid var(--blackl1);
+}
+
+.git-icon{
+    color:var(--pink8);
+    padding-left:2rem;
 }
 
 

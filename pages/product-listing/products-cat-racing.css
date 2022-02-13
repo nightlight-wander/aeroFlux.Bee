@@ -1,8 +1,6 @@
 
-.products-wrapper>* {
+.productGrid-wrapper>* {
     display: flex;
-    color:black;
-    background-color: var(--greyLight-1);
     box-sizing: border-box;
 }
 
@@ -39,7 +37,7 @@ footer {
     display: grid;
     width: 100%;
     grid-gap: 2rem;
-    grid-template-columns: repeat(autofill,minmax());
+    grid-template-columns: repeat(autofill);
     grid-template-areas:
         "side-col content-col content-col content-col";
     
@@ -148,6 +146,7 @@ input{
     border-top: 1px solid var(--blackl1);
 }
 
-.moon-icon{
-   padding-right: 1rem;
+.git-icon{
+    color:var(--yellowGold);
+    padding-left:2rem;
 }
