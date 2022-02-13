@@ -1,13 +1,11 @@
-.grids-wrapper>*{
-    color:black;
-    /* background-color: var(--greyLight-1); */
+.loginGrids-wrapper>*{
     box-sizing: border-box;
 }
 
 .rows3-grid{
     display: grid;
     height: 100vh;
-    grid-gap: 2rem;
+    /* grid-gap: 2rem; */
     grid-template-rows: 8rem 1fr 8rem;
     grid-template-areas:
         "row-grid1 "
@@ -15,7 +13,7 @@
         "row-grid3";  
 }
 
-.header {
+header {
     grid-area: row-grid1;
     color: var(--white);
     background-color:var(--pink8bg);
@@ -24,10 +22,10 @@
 main{
     grid-area: row-grid2;
     background-color:var(--pink8bg);
-    padding: 3rem 0;
-    display: flex;
-    justify-content: center;
+}
 
+.tab-fullWrapper{
+    padding: 5rem 0 3rem 0;
 }
 
 footer {
@@ -41,37 +39,25 @@ footer {
     flex-basis: 40rem;
     background-color: var(--pink8);
     color: var(--gold1);
-    box-shadow:  5px 5px 12px #120f1d,
-    -1px -1px 12px #141120;
-    
+    box-shadow: var(--box-shadow-primary-out);
 }
 
 .tab-list li {
     list-style: none;
     width: 15rem;
     text-align: center;
-    padding-bottom: 1rem;
     border-bottom: 2px solid var(--gold1);
     font-size: 2rem;
-    font-weight: 600;
-   
-    
+    font-weight: 600;  
 }
 
 .tab-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10rem;
-    padding-top: 2rem;
 }
 
 .tab-list li a{
     text-decoration: none;
-    color: var(--white);
-    
-    
-   
+    color: var(--white); 
 }
 
 .tab-list li a:hover{
@@ -79,13 +65,10 @@ footer {
 }
 
 .input-wrapper{
-    display: flex;
-    flex-direction: column;
     position: relative;
 }
 
 .text-input,.text-label{
-    margin: 0 4rem;
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -94,29 +77,20 @@ footer {
     margin-bottom: 1.6rem;
     border: none;
     outline-color: var(--gold1);
-    /* outline-color: var(--white); */
     height: 3rem;
-    box-shadow: inset -50px 50px 100px #0b0a10,
-    inset 50px -50px 100px #2d2a3e;
+    box-shadow: var(--box-shadow-primary-in);
 }
 
 .text-label{
     margin-bottom: 0.6rem;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    margin-top:4rem ;
-}
-
 .link-btn{
     text-decoration: none;
-    color: var(--gold1);
+    color: var(--tomatoOrange);
 }
 
 .password-wrapper{
-    display: flex;
     margin: 0 4rem 1rem 4rem;
     justify-content: space-between;
     font-size: 1.6rem;
@@ -127,4 +101,21 @@ footer {
   top: 72.6%;
   right: 5rem;
   color: var(--tomatoOrange);
+  cursor: pointer;
+}
+
+.footer{
+    padding: 4rem 0 4rem 0;
+    background-color: var(--pink8bg);
+    color:var(--yellowGold);
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    padding-right:2rem ;
+    border-top: 1px solid var(--blackl1);
+}
+
+.git-icon{
+    color:var(--yellowGold);
+    padding-left:2rem;
 }

@@ -1,5 +1,4 @@
 .header{
-    background-color: var(--primary-dark);
     color: var(--white);
     position: fixed;
     right: 0;
@@ -23,8 +22,7 @@
 }
 
 .logo-name:hover{
-    color:var(--shine-green-dark)
-
+    color:var(--tomatoOrange);
 }
 
 .header a,.carousel a{
@@ -98,6 +96,7 @@
 
 .user,.wishlist,.bag{
     padding-right: 2rem;
+    color: var(--white);
 }
 
 /* slider-starts */
@@ -266,5 +265,3 @@ button .before-icon{
     top: 4rem;
     color: black;
 }
-
-
