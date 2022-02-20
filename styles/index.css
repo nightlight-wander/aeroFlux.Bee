@@ -78,7 +78,6 @@
     height: 2rem;
     background:var(--white1);
     border: 1px solid var(--white1);
-   
 }
 
 .search-submit span{
@@ -101,6 +100,10 @@
 
 .user,.wishlist,.bag{
     padding-right: 2rem;
+}
+
+.actions-head>*:hover{
+    color: var(--gold1);
 }
 
 /* slider-starts */

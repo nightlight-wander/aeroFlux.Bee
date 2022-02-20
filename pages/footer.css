@@ -1,0 +1,16 @@
+.footer{
+    padding: 4rem 0 4rem 0;
+    margin: 0;
+    background-color: var(--pink8bg);
+    color:var(--yellowGold);
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    padding-right:2rem ;
+    border-top: 1px solid var(--blackl1);
+}
+
+.git-icon{
+    color:var(--yellowGold);
+    padding-left:2rem;
+}
