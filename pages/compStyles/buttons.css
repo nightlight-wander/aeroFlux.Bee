@@ -1,0 +1,45 @@
+/* hover-color-slide-button-start */
+
+.btn-slide{
+    border: none;
+    width: 40rem;
+    height: 2.5em;
+    border-radius: 2.5em;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border: 2px solid var(--gold1);
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-slide::before{
+    content: "";
+    width: 0;
+    height: 2.5em;
+    border-radius: 2em;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(to right,var(--pink8) 0%,var( --dullgold) 100%);
+    display: block;
+    transition: .5s ease;
+    z-index: -1;
+
+}
+
+.btn-slide:hover::before{
+    width: 40rem;
+}
+
+.sp-t{
+    margin: 2rem 4rem 0;
+}
+
+/* hover-color-slide-button-end */
