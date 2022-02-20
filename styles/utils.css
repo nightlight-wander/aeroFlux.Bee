@@ -4,7 +4,7 @@
   font-size: 62.5%;
   --primary-light: #8abdff;
   --primary: #6d5dfc;
-  --primary-dark: #5b0eeb;
+  --primary-purple: #5b0eeb;
   /* --secondary:#394fe2;
   --secondary-light:#054ab1; */
 
@@ -12,7 +12,7 @@
   --white1:#f5f5f6;
   --black: #000000;
   --black1:rgba(0,0,0,.2);
-  --blackl1:rgba(255,255,255,.5);
+  --blackl1:rgba(68,68,68,.5);
   --blackl2:rgba(0,0,0,.1);
   --grey:#CCC;
   --grey1: hsla(0,0%,100%,.8);
@@ -32,14 +32,18 @@
 
   --sky-blue:#0d93ed;
   --green:#23ea67;
-  --dark-red:#c81e33;
-  --dark-red:#c5091f;
+  --dark-red1:#c81e33;
+  --dark-red2:#c5091f;
   --light-red:#ec4356;
-  --dark-red:#cc061d;
+  --dark-red3:#cc061d;
 
 
   --dull-pink:#ffaca2;
   --dull-pink:#ebb4ae;
+
+  --tomatoOrange:rgb(255,99,71);
+  --coralOrange:rgb(255,127,80);
+  --yellowGold:rgb(255,215,0);
 
 
   --pink1:#dbdcd7;
@@ -50,6 +54,7 @@
   --pink6:#801357;
   --pink7:#3d1635;
   --pink8:#1c1a27;
-
+  --pink8bg:#13101ef0;
   --gold1:#e0cb8f;
+  --dullgold:#574f3b;
 }
