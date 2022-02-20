@@ -1,0 +1,16 @@
+.cols2-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(autofill);
+    grid-template-areas:
+        ".. wishlist-wrapper wishlist-wrapper ..";  
+}
+
+.wishlist-wrapper{
+    padding: 5rem 6rem 2rem;
+}
+
+.product-content .product-ratings-container{
+    position: absolute;
+    bottom: 9.8rem;
+}
