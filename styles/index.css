@@ -99,6 +99,10 @@
     padding-right: 2rem;
 }
 
+.actions-head>*:hover{
+    color: var(--gold1);
+}
+
 /* slider-starts */
 
 .slide img{
