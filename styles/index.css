@@ -23,8 +23,11 @@
 }
 
 .logo-name:hover{
-    color:var(--shine-green-dark)
+    color:var(--tomatoOrange);
+}
 
+.actions-head>*:hover{
+    color: var(--gold1);
 }
 
 .header a,.carousel a{
