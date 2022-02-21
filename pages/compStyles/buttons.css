@@ -3,6 +3,7 @@
 .btn-slide{
     border: none;
     width: 40rem;
+    max-width: 90%;
     height: 2.5em;
     border-radius: 2.5em;
     font-size: 2rem;
@@ -36,6 +37,7 @@
 
 .btn-slide:hover::before{
     width: 40rem;
+    max-width: 90%;
 }
 
 .sp-t{

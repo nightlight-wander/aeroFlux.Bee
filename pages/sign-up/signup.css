@@ -35,7 +35,7 @@ footer {
 
 .tab-wrapper{
     height: 100%;
-    flex-basis: 40rem;
+    max-width: 90%;
     background-color: var(--pink8);
     color: var(--gold1);
     box-shadow: var(--box-shadow-primary-out);
@@ -47,7 +47,7 @@ footer {
     text-align: center;
     border-bottom: 2px solid var(--gold1);
     font-size: 2rem;
-    font-weight: 600;  
+    font-weight: 600;
 }
 
 .tab-list{
