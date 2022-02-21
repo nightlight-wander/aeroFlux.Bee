@@ -37,7 +37,6 @@
 
 .btn-slide:hover::before{
     width: 40rem;
-    max-width: 90%;
 }
 
 .sp-t{
